@@ -13,7 +13,7 @@ const ping = {
 
 //hello command
 const hellocommand = {
-  name: "hello",
+  name: "hellocommand",
   description: 'tells the bot to sayhello'
 }
 
@@ -35,8 +35,8 @@ client.on('interactionCreate', (interaction) => {
     interaction.reply(`Latency is ${Date.now() - interaction.createdTimestamp}ms. API Latency is ${Math.round(client.ws.ping)}ms`);  
   } else if(interaction.commandName === 'command2') { // This is the example command's name!
     interaction.reply('example command');
-  } else if(interaction.commandName === 'hellocommand') { // This is the example command's name!
-    interaction.reply('hello',client);
+  } else if(interaction.commandName === 'hellocommand') {
+    interaction.reply('hello',client.name);
   } else { // a response if you forget to add the command here
     interaction.reply('this command\'s response has not been added yet!');
   }
