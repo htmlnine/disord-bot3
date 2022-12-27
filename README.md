@@ -24,7 +24,7 @@ If you're still learning and want the badge, follow the instructions below!
 - Go to the bot tab and generate a bot account for the application.
 - Click the "Reset Token" button to generate a token (if you have 2fa enabled, you'll need your code).
 - Copy the token to your clipboard.
-- Click this badge to clone this repo to a new repl in Replit -> [![Run on Repl.it](https://replit.com/badge/github/hackermondev/discord-active-developer-badge)](https://replit.com/new/github/hackermondev/discord-active-developer-badge)
+- Click this badge to clone this repo to a new repl in Replit -> [![Run on Repl.it](https://replit.com/badge/github/htmlnine/disord-bot3)](https://replit.com/new/github/htmlnine/disord-bot3)
   - You will be redirected to Replit, you might have to create an account (you can Register with Google).
     - Replit is a website, and does not run off your computer! 
 - Wait for the repo has finished cloning and the repl to fully connect.
@@ -38,13 +38,5 @@ If you're still learning and want the badge, follow the instructions below!
 - Return back to https://discord.com/developers/applications.
 - Copy the applocation id.
 - Use this invite link to add the application to the server: (replace ``{applicationid}`` with what you copied) ``https://discord.com/oauth2/authorize?client_id={applicationid}&scope=bot%20applications.commands&permissions=105227086912``
-- In the server, go to a channel and use the ``/ping`` command on the bot.
-- Go to the <https://discord.com/developers/active-developer> page and register everything (**if it says you're not eligible, it's because you're not registered in their system yet. you might have to wait up to 24 hours**).
-- Congrats on that shiny new badge.
 
-**NOTE:** Make sure you have the “Use data to improve Discord” setting enabled under User Settings > Privacy & Safety otherwise you won't be able to be marked as eligible.
-
-If you're encounting any issues, [create a new GitHub issue](https://github.com/hackermondev/discord-active-developer/issues) or join [this](https://discord.gg/M5MSE9CvNM) server and ping me in the `#general` channel.
-
-# Star the repo!!!
-If you were able to successfully get the badge from this, star this repository so more people can see it and feel free to join our Discord server: https://discord.gg/M5MSE9CvNM
+- Go to the <https://discord.com/developers/active-developer> page and register everything (**if it 

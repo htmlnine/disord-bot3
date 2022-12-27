@@ -22,7 +22,7 @@ const command2 = {
 }
 
 const commands = [ping, command2,hellocommand]; // Add your commands with commas to add them to the bot!
-// Join the Discord for support: https://discord.gg/M5MSE9CvNM
+
 
 const client = new Client({ intents: [] });
 const rl = createInterface({ input: process.stdin, output: process.stdout });
@@ -42,7 +42,7 @@ client.on('interactionCreate', (interaction) => {
 
 const question = (q) => new Promise((resolve) => rl.question(q, resolve));
 (async ()=>{
-  const token = MTA1NjgwMjk4MjgyMzQ2NDk4MA.GDqros.AkL74RVx0IzwPsf7Y0E0Kz8JgbKqoN30gA-hdU;
+  const token = await question('Application token? ');
   if(!token) throw new Error('Invalid token');
 
   const ratelimitTest = await fetch(`https://discord.com/api/v9/invites/discord-developers`);
