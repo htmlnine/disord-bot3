@@ -36,7 +36,8 @@ client.on('interactionCreate', (interaction) => {
   } else if(interaction.commandName === 'command2') { // This is the example command's name!
     interaction.reply('example command');
   } else if(interaction.commandName === 'hellocommand') {
-    interaction.reply('hello world');
+    interaction.reply('hello world',interaction.user);
+    
   } else { // a response if you forget to add the command here
     interaction.reply('this command\'s response has not been added yet!');
   }
